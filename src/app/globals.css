@@ -122,3 +122,14 @@ padding-right: 1%;
 height: 40px;
   background-color: rgb(210, 239, 241);
 }
+.about-section .profHeading
+{
+  margin-top: 4%;
+}
+.about-section .card
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:4px green;
+}

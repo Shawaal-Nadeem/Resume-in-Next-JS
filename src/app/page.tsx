@@ -41,6 +41,11 @@ export default function Home() {
   <button>Creative Problem Solving</button>
   <button>Time management</button>
 </div>
+<h2 className='profHeading'>PROFESSIONAL EXPERIENCE</h2>
+
+<div className='card'>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium quos perspiciatis nobis, quaerat unde facilis, esse ad quidem laborum, recusandae delectus illo. Laboriosam eius iusto, ullam incidunt nam repellendus.
+</div>
 </div>
 
    </div>
