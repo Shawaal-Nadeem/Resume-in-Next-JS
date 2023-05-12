@@ -109,9 +109,16 @@ background-color: yellow;
 text-align: end;
 padding-right: 1%;
 }
-.socialButtons
+.about-section .socialButtons
 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
+  margin-top: 2%;
+  width: 90%;
+}
+.socialButtons button
+{
+height: 40px;
+  background-color: rgb(210, 239, 241);
 }

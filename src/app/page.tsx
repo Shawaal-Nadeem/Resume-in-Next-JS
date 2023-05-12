@@ -2,6 +2,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import{AiFillGithub} from 'react-icons/ai'
+import { FaHeadphones } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -34,6 +35,11 @@ export default function Home() {
 </div>
 <div className='socialButtons'>
   <button>Active Listening</button>
+  <button>Effective Communication</button>
+  <button>Collaboration</button>
+  <button> Teamwork</button>
+  <button>Creative Problem Solving</button>
+  <button>Time management</button>
 </div>
 </div>
 
