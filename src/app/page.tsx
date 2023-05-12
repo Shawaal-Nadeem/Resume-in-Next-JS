@@ -2,6 +2,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import{AiFillGithub} from 'react-icons/ai'
+
 export default function Home() {
   return (
    <div className="main">
@@ -16,17 +17,24 @@ export default function Home() {
 <h5>CONTACT ME</h5>
 <div className='icons'>
 <a href='mailto:hafizshawalnadeem@gmail.com'><FaEnvelope style={{color:'white',cursor:'pointer'}} size={25} /></a>
-<FaTwitter style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} />
-<FaLinkedin style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} />
-<AiFillGithub style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} />
+<a href='https://twitter.com/ShawaalNadeem?t=IjNgxDNGOgIO6X8FQt_jZg&s=09'><FaTwitter style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} /></a>
+<a href='https://www.linkedin.com/in/shawaal-nadeem-a72972253/'><FaLinkedin style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} /></a>
+<a href='https://github.com/Shawaal-Nadeem'><AiFillGithub style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} /></a>
+</div>
 </div>
 
-</div>
 <div className="about-section">
 <h2>ABOUT ME</h2>
 <p>My technical skills include proficiency in programming languages such as Typescript, Javascript, Python and C++, as well as experience with database management and web development. In addition, I have developed strong communication and leadership skills through various group projects and extracurricular activities.</p>
 <br/>
 <p>When I'm not working, I enjoy hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team, and I am excited to bring these qualities to a new opportunity.</p>
+<div className='buttons'>
+<button className='b1'>SOFT SKILLS</button>
+<button className='b2'>HARD SKILLS</button>
+</div>
+<div className='socialButtons'>
+  <button>Active Listening</button>
+</div>
 </div>
 
    </div>

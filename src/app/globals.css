@@ -65,10 +65,10 @@ margin-top: 2%;
 {
   box-sizing: border-box;
   width: 60%;
+  font-family: oswald;
 }
 .about-section h2
 {
-  font-family: oswald;
   font-size: 25px;
   color: rgb(25 26 25);
 margin-bottom: 3%;
@@ -76,4 +76,42 @@ margin-bottom: 3%;
 .about-section p
 {
 width: 95%;
+}
+.about-section .buttons
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  width: 90%;
+}
+.about-section .buttons button
+{
+  width: 50%;
+  height: 50px;
+  background-color: blue;
+  font-size: 20px;
+}
+.about-section .buttons .b1
+{
+text-align: start;
+padding-left: 1%;
+background-color: yellow;
+}
+.about-section .buttons .b1:hover,.about-section .buttons .b2:hover
+{
+  background-color: black;
+  color: yellow;
+  transition: .4s;
+}
+.about-section .buttons .b2
+{
+  background-color: lightgrey;
+text-align: end;
+padding-right: 1%;
+}
+.socialButtons
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
 }
