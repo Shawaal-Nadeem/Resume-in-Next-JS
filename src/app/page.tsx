@@ -7,7 +7,8 @@ import { FaHeadphones } from 'react-icons/fa';
 export default function Home() {
   return (
    <div className="main">
-<div className="overlap">
+    <div className='overlapMain'>
+    <div className="overlap">
 <img src="/images/shawal.jpg"/>
 <h1>Shawaal Nadeem</h1>
 <h3> Software Engineer</h3>
@@ -23,6 +24,8 @@ export default function Home() {
 <a href='https://github.com/Shawaal-Nadeem'><AiFillGithub style={{color:'white',cursor:'pointer',marginLeft:'20px'}} size={25} /></a>
 </div>
 </div>
+    </div>
+
 
 <div className="about-section">
 <h2>ABOUT ME</h2>
@@ -42,9 +45,32 @@ export default function Home() {
   <button>Time management</button>
 </div>
 <h2 className='profHeading'>PROFESSIONAL EXPERIENCE</h2>
-
+<div className='firstCard'>
+  <div className='content'>
+  <h3>Website Development:</h3>
+<p>I have created responsive and user-friendly websites using modern front-end technologies. Leveraging my knowledge of HTML, CSS, and JavaScript, I have implemented intuitive user interfaces, engaging animations, and seamless navigation.</p>
+</div>
+</div>
+<br/>
 <div className='card'>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium quos perspiciatis nobis, quaerat unde facilis, esse ad quidem laborum, recusandae delectus illo. Laboriosam eius iusto, ullam incidunt nam repellendus.
+  <div className='content'>
+  <h3>Front-end Frameworks:</h3>
+<p>I am well-versed in popular front-end frameworks such as Bootstrap and Foundation. I have utilized these frameworks to streamline development processes, enhance cross-browser compatibility, and ensure mobile responsiveness.</p>
+</div>
+</div>
+<br/>
+<div className='card'>
+  <div className='content'>
+  <h3>JavaScript and Libraries:</h3>
+<p>I am proficient in JavaScript and have utilized it to create interactive and dynamic elements on websites. I have also worked with libraries such as jQuery to simplify DOM manipulation, handle asynchronous requests, and implement advanced functionality.</p>
+</div>
+</div>
+<br/>
+<div className='card'>
+  <div className='content'>
+  <h3>Version Control:</h3>
+<p>I have utilized Git for version control, allowing for effective collaboration and seamless code management within development teams. I am familiar with branching, merging, and resolving conflicts to ensure smooth and efficient project workflows.</p>
+</div>
 </div>
 </div>
 
