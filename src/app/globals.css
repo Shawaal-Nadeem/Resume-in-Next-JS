@@ -219,3 +219,38 @@ margin-bottom: 1%;
   text-align: center;
 }
 }
+@media screen and (max-width:520px) 
+{
+  .about-section
+  {
+    margin-top: 8%;
+    margin-bottom: 10%;
+  }
+  .overlap .icons
+{
+  margin-bottom: 10%;
+}
+.about-section .card,.about-section .firstCard
+{
+  height: 200px;
+}
+
+}
+@media screen and (max-width:400px) 
+{
+  .about-section
+  {
+    margin-bottom: 15%;
+  }
+  .about-section .card,.about-section .firstCard
+{
+  height: 250px;
+}
+}
+@media screen and (min-height:760px)
+{
+.overlap .icons
+{
+  margin-bottom: 2000px;
+}
+} 
