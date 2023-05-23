@@ -2,7 +2,6 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import{AiFillGithub} from 'react-icons/ai'
-import { FaHeadphones } from 'react-icons/fa';
 
 export default function Home() {
   return (
