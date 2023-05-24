@@ -78,6 +78,8 @@ margin-bottom: 2%;
 .about-section p
 {
 width: 95%;
+text-align: justify;
+font-size: 18px;
 }
 .about-section .buttons
 {
@@ -137,7 +139,7 @@ height: 40px;
            -2px 0 2px lightgray,
             0 2px 2px lightgray;
  width: 90%;
- height: 170px;
+ height: 200px;
 }
 .about-section .firstCard .content
 {
@@ -163,7 +165,7 @@ margin-bottom: 1%;
             -2px 0 2px lightgray,
              0 2px 2px lightgray;
   width: 90%;
-  height: 170px;
+  height: 200px;
 }
 .about-section .card .content
 {
@@ -185,7 +187,11 @@ margin-bottom: 1%;
 .overlap h1
 {
   margin-left: 20%;
-}  
+}
+.about-section .card, .about-section .firstCard
+{
+  height: 220px;
+}
 }
 @media screen and (max-width:700px) 
 {
@@ -213,10 +219,14 @@ margin-bottom: 1%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-}  
+}
 .overlap p
 {
   text-align: center;
+}
+.about-section .card, .about-section .firstCard
+{
+  height: 220px;
 }
 }
 @media screen and (max-width:520px) 
@@ -232,9 +242,14 @@ margin-bottom: 1%;
 }
 .about-section .card,.about-section .firstCard
 {
-  height: 200px;
+  height: 240px;
 }
-
+.about-section h2
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(25 26 25);
+}
 }
 @media screen and (max-width:400px) 
 {
@@ -244,13 +259,13 @@ margin-bottom: 1%;
   }
   .about-section .card,.about-section .firstCard
 {
-  height: 250px;
+  height: 265px;
 }
 }
 @media screen and (min-height:760px)
 {
 .overlap .icons
 {
-  margin-bottom: 2000px;
+  margin-bottom: 500px;
 }
 } 
