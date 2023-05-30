@@ -113,7 +113,7 @@ background-color: yellow;
 text-align: end;
 padding-right: 1%;
 }
-.about-section .socialButtons
+.about-section .socialButtons,.about-section .socialButtonsHard
 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -121,11 +121,12 @@ padding-right: 1%;
   margin-top: 2%;
   width: 90%;
 }
-.socialButtons button
+.socialButtons button,.socialButtonsHard button
 {
 height: 40px;
   background-color: rgb(210, 239, 241);
 }
+
 .about-section .profHeading
 {
   margin-top: 6%;
@@ -262,10 +263,4 @@ margin-bottom: 1%;
   height: 265px;
 }
 }
-@media screen and (min-height:760px)
-{
-.overlap .icons
-{
-  margin-bottom: 500px;
-}
-} 
+

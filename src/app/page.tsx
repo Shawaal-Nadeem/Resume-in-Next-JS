@@ -1,9 +1,40 @@
+"use client";
+import { useState } from 'react';
 import { FaTwitter } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import{AiFillGithub} from 'react-icons/ai'
 
+
 export default function Home() {
+  const [now,update]=useState('now')
+  
+  const before=(
+    <div className='socialButtons'>
+    <button>Active Listening</button>
+    <button>Effective Communication</button>
+    <button>Collaboration</button>
+    <button> Teamwork</button>
+    <button>Creative Problem Solving</button>
+    <button>Time management</button>
+  </div>
+  )
+  const after=(
+<div className='socialButtonsHard'>
+  <button>Next JS</button>
+  <button>React JS</button>
+  <button>Typescript</button>
+  <button>Javascript</button>
+  <button>HTML</button>
+  <button>CSS</button>
+  <button>Tailwind CSS</button>
+  <button>Shadcn UI</button>
+  <button>Material UI</button>
+  <button>Vercel</button>
+  <button>Netlify</button>
+  <button>Github</button>
+</div>
+  )
   return (
    <div className="main">
     <div className='overlapMain'>
@@ -32,17 +63,11 @@ export default function Home() {
 <br/>
 <p>When I am not working, I enjoy hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team, and I am excited to bring these qualities to a new opportunity.</p>
 <div className='buttons'>
-<button className='b1'>SOFT SKILLS</button>
-<button className='b2'>HARD SKILLS</button>
+  <button onClick={() => update('now')} className='b1'>SOFT SKILLS</button>
+  <button onClick={() => update('past')}  className='b2'>HARD SKILLS</button>
 </div>
-<div className='socialButtons'>
-  <button>Active Listening</button>
-  <button>Effective Communication</button>
-  <button>Collaboration</button>
-  <button> Teamwork</button>
-  <button>Creative Problem Solving</button>
-  <button>Time management</button>
-</div>
+{now === 'now' ? before : after}
+
 <h2 className='profHeading'>PROFESSIONAL EXPERIENCE</h2>
 <div className='firstCard'>
   <div className='content'>
