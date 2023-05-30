@@ -113,7 +113,7 @@ background-color: yellow;
 text-align: end;
 padding-right: 1%;
 }
-.about-section .socialButtons,.about-section .socialButtonsHard
+.about-section .socialButtons
 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -121,7 +121,7 @@ padding-right: 1%;
   margin-top: 2%;
   width: 90%;
 }
-.socialButtons button,.socialButtonsHard button
+.socialButtons button
 {
 height: 40px;
   background-color: rgb(210, 239, 241);

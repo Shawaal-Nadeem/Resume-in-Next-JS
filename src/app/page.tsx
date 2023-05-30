@@ -20,7 +20,7 @@ export default function Home() {
   </div>
   )
   const after=(
-<div className='socialButtonsHard'>
+<div className='socialButtons'>
   <button>Next JS</button>
   <button>React JS</button>
   <button>Typescript</button>
